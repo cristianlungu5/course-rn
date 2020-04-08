@@ -18,19 +18,19 @@ const FlexDemo = () => (
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    // justifyContent: "center",
-    // alignItems: "center",
-    // flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+    flexDirection: "row",
     backgroundColor: "yellow",
   },
   box1: {
-    // flex: 1,
+    flex: 1,
     width: 100,
     height: 100,
     backgroundColor: "red",
   },
   box3: {
-    // flex: 1,
+    flex: 1,
     width: 100,
     height: 100,
     backgroundColor: "green",
@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
 
 const boxes = StyleSheet.create({
   box2: {
-    // flex: 3,
+    flex: 3,
     width: 100,
     height: 100,
     backgroundColor: "blue",
