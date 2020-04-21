@@ -4,6 +4,8 @@ import HomeScreen from "./src/screens/HomeScreen";
 import BoxesScreen from "./src/screens/BoxesScreen";
 import FlexDemo from "./src/screens/FlexDemo";
 import PlaygroundScreen from "./src/screens/PlaygroundScreen";
+import ComponentsScreen from "./src/screens/ComponentsScreen";
+import ListsScreen from "./src/screens/ListsScreen";
 
 const navigator = createStackNavigator(
   {
@@ -11,9 +13,11 @@ const navigator = createStackNavigator(
     Boxes: BoxesScreen,
     Flex: FlexDemo,
     Play: PlaygroundScreen,
+    ComponentsScreen: ComponentsScreen,
+    ListsScreen: ListsScreen,
   },
   {
-    initialRouteName: "Flex",
+    initialRouteName: "Home",
     defaultNavigationOptions: {
       title: "App",
     },
